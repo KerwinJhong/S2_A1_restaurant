@@ -32,11 +32,11 @@ http://localhost:3000
 
 ## 專案內容
 + 顯示餐廳所有清單
-![image](https://github.com/KerwinJhong/restaurant_list/blob/master/restaurant_list.png)
+![image](https://github.com/KerwinJhong/S2_A1_restaurant/blob/master/restaurant_list.png)
 + 顯示個別餐廳詳細介紹
-![image](https://github.com/KerwinJhong/restaurant_list/blob/master/restaurant_index.png)
+![image](https://github.com/KerwinJhong/S2_A1_restaurant/blob/master/restaurant_index.png)
 + 搜尋餐廳
-![image](https://github.com/KerwinJhong/restaurant_list/blob/master/restaurant_research.png)
+![image](https://github.com/KerwinJhong/S2_A1_restaurant/blob/master/restaurant_research.png)
 
 
 
