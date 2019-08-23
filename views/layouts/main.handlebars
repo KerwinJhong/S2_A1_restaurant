@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head profile="http://www.w3.org/2005/10/profile">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> --}}
+  <title>KerwinWeb</title>
+  <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon">
+  {{!-- incude css files here --}}
+  <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+  <link rel="stylesheet" href="/stylesheets/css/all.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+  {{!-- navigation --}}
+  <nav class="navbar navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="/image/logo-via-logohub.png" style="width: 200px;" alt=""></a>
+    </div>
+  </nav>
+  <div class="banner"></div>
+  {{!-- partial template will replace th part --}}
+  {{{body}}}
+
+  {{!-- incude javascripts files here --}}
+  <script src="/javascripts/jquery-3.4.1.min.js"></script>
+  <script src="/javascripts/popper.min.js"></script>
+  <script src="/javascripts/bootstrap.js"></script>
+  <script src="/javascripts/fontawesome.min.js"></script>
+</body>
+
+</html>
