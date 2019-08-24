@@ -19,7 +19,9 @@ app.get("/", (req, res) => {
 
 app.get("/search", (req, res) => {
     const restaurants = restaurantList.results.filter(restaurant => {
-        return restaurant.name.toLowerCase().includes(req.query.keyword.toLowerCase());
+        return restaurant.name
+            .toLowerCase()
+            .includes(req.query.keyword.toLowerCase());
     });
     res.render("index", { restaurant: restaurants, keyword: req.query.keyword });
 });
@@ -30,6 +32,18 @@ app.get("/restaurant/:restaurant_id", (req, res) => {
     );
     // console.log("movie", movie);
     res.render("show", { restaurant: restaurant });
+});
+
+// Handle 404
+app.use(function(req, res) {
+    res.status(400);
+    res.render("404");
+});
+
+// Handle 500
+app.use(function(error, req, res, next) {
+    res.status(500);
+    res.render("500");
 });
 
 //start and listen on the Express server
