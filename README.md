@@ -29,6 +29,7 @@ http://localhost:3000
 + 顯示餐廳所有清單：http://localhost:3000
 + 顯示個別餐廳詳細介紹：http://localhost:3000/id
 + 搜尋餐廳：http://localhost:3000/search?keyword=搜尋輸入內容
++ 搜尋餐廳：http://localhost:3000/something
 
 ## 專案內容
 + 顯示餐廳所有清單
