@@ -37,6 +37,8 @@ http://localhost:3000
 ![image](https://github.com/KerwinJhong/S2_A1_restaurant/blob/master/restaurant_index.png)
 + 搜尋餐廳
 ![image](https://github.com/KerwinJhong/S2_A1_restaurant/blob/master/restaurant_research.png)
++ 404 OOPS~
+![image](https://github.com/KerwinJhong/S2_A1_restaurant/blob/master/restaurant_404.png)
 
 
 
