@@ -7,7 +7,7 @@
 + Express ^4.17.1
 + Express-handlebars ^3.1.0
 
-## 安裝
+## 安裝步驟
 1. 下載restaurant_list資料夾，並輸入以下指令下載
 ```
 $ git clone https://github.com/KerwinJhong/S2_A1_restaurant.git
